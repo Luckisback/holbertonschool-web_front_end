@@ -35,7 +35,7 @@ a {
     --text-color: var(--color-black);
     /*Variables for storing certain font types*/
     --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
-    --font-family-title: "font-family-title", Helvetica Neue, Helvetica, Arial, sans-serif;
+    --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
     /*Variables for the font size */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
