@@ -1,6 +1,6 @@
 /*The scroll-behavior CSS property sets the behavior for 
   a scrolling box when scrolling is triggered */
 
-:root {
+html {
     scroll-behavior: smooth;
   }
