@@ -46,8 +46,8 @@ a {
 
 .section-header{
     text-align: var(--section-header-align);
-
 }
+
 
 /*Revisiting the classe Section-tagline 
   using the root's declared variable*/
