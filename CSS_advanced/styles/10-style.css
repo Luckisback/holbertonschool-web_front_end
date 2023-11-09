@@ -1,34 +1,70 @@
+/*The scroll-behavior when scrolling triggered*/
+
 html {
     scroll-behavior: smooth;
+
+/*All fonts in the html element should be at 62.5% 
+  of their normal size*/
     font-size: 62.5%;
   }
 
+
+/* Body font-family receive its value 
+   from the root's variable*/
 body {
-   color: (--text-color);
-   font-family: var(--font-family-base);
-   font-size: var(--font-size-medium);
-   font-weight: var(--font-weight-regular);
-   line-height: var(--line-height-base);
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
   }
 
+/*Revisiting the anchor 
+  using the root's declared variable*/
+
 a {
-    color: (--text-color);
+    color: var(--text-color);
+
+    /*prevents the anchors from being decorated*/
     text-decoration: none;
   }
 
+
+/*class visually-hidden color set to none*/
  .visually-hidden {
     color: none;
  }
 
+
+/*Revisiting the classe card-categoty 
+  using the root's declared variable*/
+  
  .card-category {
-    color: (--color-primary);
+    color: var(--color-primary);
  }
 
+
+.section-header{
+    text-align:var(section-header-align);
+
+}
+
+/*Revisiting the classe Section-tagline 
+  using the root's declared variable*/
  .section-tagline {
-    color: (--color-primary);
+    color: var(--color-primary);
  }
+
+/* h1 to h6 font-family receive their values */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
+
+/*Declaration of diffrent variables in the root*/
 
  :root {
+/*definition of the variables color*/
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -37,17 +73,17 @@ a {
     --text-color: var(--color-black);
     
     /*Variables for storing certain font types*/
-    --font-family-base: "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
-    --font-family-title: "Raleway", Helvetica Neue, Helvetica, Arial, sans-serif;
-
+    --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
     /*Variables for the font size */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
-    --font-size-xx-large: 4.8rem;
-
-    /*Variables for the font-weight*/
+    --font-xx-large: 4.8rem;
+    
+    /*Variables for the font-weight */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 
@@ -55,15 +91,9 @@ a {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+
     /*Centering the section titles */
     --section-header-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold);
-}
 
-.section-header {
-    text-align: var(--secetion-header-align) ;
-}
