@@ -1,26 +1,45 @@
+/*The scroll-behavior when scrolling triggered*/
+
 html {
     scroll-behavior: smooth;
   }
 
+
+/*Revisiting the body 
+  using the root's declared variable*/
+  
 body {
-    color: (--text-color);
+    color: var(--text-color);
   }
 
+
+/*Revisiting the anchor 
+  using the root's declared variable*/
+  
 a {
-    color: (--text-color);
+    color: var(--text-color);
   }
 
  .visually-hidden {
     color: none;
  }
 
+
+/*Revisiting the classe card-categoty 
+  using the root's declared variable*/
+  
  .card-category {
-    color: (--color-primary);
+    color: var(--color-primary);
  }
 
+/*Revisiting the classe Section-tagline 
+  using the root's declared variable*/
+
  .section-tagline {
-    color: (--color-primary);
+    color: var(--color-primary);
  }
+
+/*Declaration of diffrent variables in the root*/
 
  :root {
     --color-primary: #d73953;
