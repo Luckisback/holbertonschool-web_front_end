@@ -1,30 +1,52 @@
+/*All fonts in the html element should be at 62.5% 
+   of their normal size*/
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
   }
 
+/* Body font-family receive its value 
+   from the root's variable*/
 body {
-    color: (--text-color);
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
+   color: (--text-color);
+   font-family: var(--font-family-base);
+   font-size: var(--font-size-medium);
   }
 
+/*Revisiting the anchor 
+  using the root's declared variable*/
 a {
-    color: (--text-color);
+    color: var(--text-color);
   }
 
+
+/*class visually-hidden color set to none*/
  .visually-hidden {
     color: none;
  }
 
+
+/*Revisiting the classe card-categoty 
+  using the root's declared variable*/
  .card-category {
-    color: (--color-primary);
+    color: var(--color-primary);
  }
 
+
+/*Revisiting the classe Section-tagline 
+  using the root's declared variable*/
  .section-tagline {
-    color: (--color-primary);
+    color: var(--color-primary);
  }
 
+
+/* h1 to h6 font-family receive their values */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+
+/*Declaration of diffrent variables in the root*/
  :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -42,8 +64,3 @@ a {
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-}
-
