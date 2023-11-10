@@ -90,10 +90,12 @@ a:active {
 
 /*Revisiting the classe Section-tagline 
   using the root's declared variable*/
- .section-tagline {
+.section-tagline{
     color: var(--color-primary);
- }
-
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
+}
 
 /*Styling the container */
 
@@ -119,15 +121,9 @@ h1, h2, h3, h4, h5, h6 {
     text-color: var(--section-title-color);
 }
 
-/*more styles to the section tagline */
-.section-tagline{
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
-}
 
 /*Adding padding to sections */
-footer {
+.footer {
     padding: var(--footer-padding);
 }
 
