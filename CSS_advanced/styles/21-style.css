@@ -117,15 +117,11 @@ ul.row {
 /*Grid styling and custom variables */
 .col-1-3 {
     width: 33.33%;
-    float: none;
-    padding: initial;
 }
 
 /*Grid styling and custom variables */
 .col-1-2 {
     width: 50%;
-    float: none;
-    padding: initial;
 }
 
 /*Grid styling and custom variables */
