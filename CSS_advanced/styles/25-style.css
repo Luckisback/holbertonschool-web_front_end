@@ -89,23 +89,6 @@ a:active {
     background: var(--color-black);
 }
 
-/*Add border to the button */
-.button {
-    display: var(--button-display);
-    padding: var(--button-padding);
-    border: var(--button-border);
-    font-size: var(--button-font-size);
-    color: var(--button-color);
-    text-decoration: var(--button-text-decoration);
-}
-
-/*Add border to the button effect*/
-.button:hover {
-    color: var(--button-hover-color);
-    text-decoration: var(--button-hover-text-decoration);
-    background: var(--button-hover-background);
-}
-
 
 /*class visually-hidden color set to none*/
  .visually-hidden {
@@ -121,6 +104,23 @@ a:active {
     display: block;
     padding: 2rem;
     background-color: var(--color-light-grey);
+}
+
+/*Add border to the button */
+.button {
+    display: var(--button-display);
+    padding: var(--button-padding);
+    border: var(--button-border);
+    font-size: var(--button-font-size);
+    color: var(--button-color);
+    text-decoration: var(--button-text-decoration);
+}
+
+/*Add border to the button effect*/
+.button:hover {
+    color: var(--button-hover-color);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
 }
 
 .card-services a:hover {
