@@ -130,6 +130,14 @@ a:active {
     background: var(--button-hover-background);
 }
 
+/*Add a dark theme to sections */
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+    --button-color: var(--color-white);
+}
+
 
 /*Revisiting the classe card-categoty 
   using the root's declared variable*/
@@ -224,14 +232,6 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
-}
-
-/*Add a dark theme to sections */
-[data-section-theme="dark"] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
-    --button-color: var(--color-white);
 }
 
 
