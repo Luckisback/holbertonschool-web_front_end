@@ -90,29 +90,6 @@ a:active {
 }
 
 
-/*class visually-hidden color set to none*/
- .visually-hidden {
-    color: none;
- }
-
-
-.card-services .card-title {
-    margin: 0;
-}
-
-.card-services a {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-}
-
-
-.card-services a:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
-}
-
 /*Add border to the button */
 .button {
     display: var(--button-display);
@@ -136,6 +113,31 @@ a:active {
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
     --button-color: var(--color-white);
+}
+
+
+
+/*class visually-hidden color set to none*/
+ .visually-hidden {
+    color: none;
+ }
+
+
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
 }
 
 
