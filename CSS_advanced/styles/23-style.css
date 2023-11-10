@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Fix issues for dark theme */
 .social-link, .social-link > svg {
-    text-rendering: block;
+    display: block;
     fill: var(--text-color);
 }
 
