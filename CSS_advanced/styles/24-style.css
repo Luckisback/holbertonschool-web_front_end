@@ -57,15 +57,6 @@ html {
     color: var(--nav-item-link-hover);
 }
 
-.card-services .card-title {
-    margin: none;
-}
-
-.card-services a {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-}
 
 /* Body font-family receive its value 
    from the root's variable*/
@@ -99,17 +90,27 @@ a:active {
 }
 
 
+/*class visually-hidden color set to none*/
+ .visually-hidden {
+    color: none;
+ }
+
+
+.card-services .card-title {
+    margin: 0;
+}
+
+.card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+}
+
 .card-services a.hover {
     color: var(--color-white);
     background-color: var(--color-primary);
     text-decoration: none;
 }
-
-
-/*class visually-hidden color set to none*/
- .visually-hidden {
-    color: none;
- }
 
 
 /*Revisiting the classe card-categoty 
