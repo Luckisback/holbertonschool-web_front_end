@@ -104,27 +104,27 @@ a:active {
 /*UL with the class Row*/
 ul, .row {
     margin: 0;
-    padding: none;
+    padding: 0;
     list-style: none;
 }
 
 /*Grid styling and custom variables */
 .col-1-3 {
-    width: 0.33rem;
+    width: 33.33%;
     float: left;
     padding: 0.5rem;
 }
 
 /*Grid styling and custom variables */
 .col-1-2 {
-    width: 0.5rem;
+    width: 50%;
     float: left;
     padding: 0.5rem;
 }
 
 /*Grid styling and custom variables */
 .footer-copyright {
-    margin: none;
+    margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
 }
