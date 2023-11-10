@@ -88,15 +88,6 @@ a:active {
     padding: var(--section-footer-padding);
 }
 
-/*Revisiting the classe Section-tagline 
-  using the root's declared variable*/
-.section-tagline{
-    color: var(--color-primary);
-    font-family: var(--font-family-title);
-    text-transform: var(--section-tagline-transform);
-    font-weight: var(--font-weight-bold);
-}
-
 /*Styling the container */
 
 .container {
@@ -119,6 +110,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     text-color: var(--section-title-color);
+}
+
+/*Revisiting the classe Section-tagline 
+  using the root's declared variable*/
+.section-tagline{
+    color: var(--color-primary);
+    font-family: var(--font-family-title);
+    text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
 
